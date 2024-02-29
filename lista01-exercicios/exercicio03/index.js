@@ -29,4 +29,7 @@ inquirer
         }else{
             console.log(`User response: ${chalk.bgRed.black(response)}`);
         }
-    });
+    })
+    .catch((err) => {
+        console.log('Deu ruim!', err);
+    })

@@ -17,5 +17,5 @@ inquirer
     .prompt(userData)
     .then((answers) => {
         const user = answers.nome;
-        console.log(`Olá, ${user} ! Seja bem vindo(a) à nossa empresa '${chalk.bgBlue.white(`Saffari`)}'`);
+        console.log(`Olá, ${user} ! Seja bem vindo(a) à nossa empresa.`);
     });

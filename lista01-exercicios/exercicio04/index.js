@@ -60,5 +60,9 @@ inquirer
             });
         };
     })
+    
+    .catch((err) => {
+       console.error('Deu ruim!', err);
+    })
 
 
